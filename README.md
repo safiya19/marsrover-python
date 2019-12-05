@@ -20,11 +20,6 @@ To run the program:
 3. From the command prompt, run "main.py" 
 The output will be displayed on the console
 
-Unit Testing:
-
-Zone size, start coordinate position, start cardinal direction,
-and rover movement goes through unit testing in test.py
-
 Design decision:
 - Each line of the the input text file was placed into a list in order
 to separate the commands. Item 1 of list refers to the zone size,
@@ -40,3 +35,8 @@ the grid, however the end point of the rover will still be provided.
 - Warning messages print out if:
   1) Rover has moved out of grid bounds
   2) An invalid character has been placed in the input file
+
+Unit Testing:
+
+Zone size, start coordinate position, start cardinal direction,
+and rover movement goes through unit testing in test.py
