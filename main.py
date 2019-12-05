@@ -38,7 +38,9 @@ def main():
 #CREATE MARSROVER INSTANCE FOR PROCESSING	
     zone = Zone(grid_x, grid_y)
     position = Position(start_x, start_y)
-    rover = Rover(zone, position, Rover.DIRECTIONS.get(dir_char)) 
+    direction = Rover.DIRECTIONS.get(dir_char)
+
+    rover = Rover(zone, position, direction) 
     rover.process(movement)
     print(rover) 
 
