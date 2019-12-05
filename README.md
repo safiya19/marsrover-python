@@ -1,5 +1,4 @@
 # marsrover-python
-Project Brief:
 This navigation problem is based on the Mars Rover challenge.
 The objective of the project is to design a program which takes an 
 input textfile containing the instructions required for the rover
