@@ -16,8 +16,7 @@ Technical Specifications:
 To run the program: 
 1. Ensure that the text file containing the rover instructions is
    named "input", and place it in the same directory as main.py
-2. Open the command prompt within the directory "MarsRover-Next45" 
-   (or the folder in which main.py is contained).
+2. Open the command prompt within the folder in which main.py is contained.
 3. From the command prompt, run "main.py" 
 The output will be displayed on the console
 
