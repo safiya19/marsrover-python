@@ -1,7 +1,5 @@
 #CLASS IMPORTS
-from marsrover import Zone
-from marsrover import Position
-from marsrover import Rover
+from marsrover import *
 
 
 def main():
